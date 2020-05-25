@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "41712038122",
+    "firebase_url": "https://vedhashala-9fb08.firebaseio.com",
+    "project_id": "vedhashala-9fb08",
+    "storage_bucket": "vedhashala-9fb08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41712038122:android:715c5310d0733b2ee22793",
+        "android_client_info": {
+          "package_name": "com.vedhashala.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41712038122-5cdgsv2bc850pdcq366k5ll8uijakkq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vedhashala.admin",
+            "certificate_hash": "cb57655756dc86b394634c3082d9483e1fad98c8"
+          }
+        },
+        {
+          "client_id": "41712038122-35ce0meiiu5440751d1a6acdflf5e8tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDybYBaMw31Z4LW2PXSy1RNNuo1_OWUio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41712038122-35ce0meiiu5440751d1a6acdflf5e8tp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
