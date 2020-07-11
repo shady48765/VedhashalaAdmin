@@ -66,13 +66,22 @@ public class MainActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (title.getText().length() !=0 && caption.getText().length() !=0 && link.getText().length() !=0 &&filePath!=null) {
+                if (title.getText().length() !=0 && caption.getText().length() !=0 && link.getText().length() !=0 ) {
 
                     Upload();
                 }
                 else {
                     Toast.makeText(getApplicationContext(),"Invalid input(s)",Toast.LENGTH_LONG).show();
                 }
+            }
+        });
+
+        submit.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+            Intent i = new Intent(getApplicationContext(),Delete.class);
+            startActivity(i);
+                return false;
             }
         });
 
