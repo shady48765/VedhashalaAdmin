@@ -65,7 +65,14 @@ public class Delete extends AppCompatActivity {
         delete = findViewById(R.id.deletebutton);
         storage = FirebaseStorage.getInstance();
         storageRef = FirebaseStorage.getInstance().getReference();
-
+        delete.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),tokenupload.class);
+                startActivity(intent);
+                return false;
+            }
+        });
         final int[] count = {0};
         myRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
